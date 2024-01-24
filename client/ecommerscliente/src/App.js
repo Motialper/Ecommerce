@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import * as style from './App.styled';
 
 const App = () => {
   return (
-    <div>weclcome to my Ecommers webesite</div>
-  )
-}
+    
+    <style.MainApp>Welcome to my E-commerce website</style.MainApp>
+  );
+};
 
-export default App
+export default App;
